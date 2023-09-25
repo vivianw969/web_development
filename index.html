@@ -1,0 +1,88 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A cute page</title>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+    integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mapstyle.css" />
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+ integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+ crossorigin=""></script>
+  </head>
+  <body>
+    <style>
+      body{
+       font-family:Fantasy, sans-serif, Helvetica; }
+      button{
+        font-family:fantasy;
+      }
+    </style>
+  
+      <header class="header"><h1>Vivian's Restaurant Demo</h1></header>
+      <!-- wrapper -->
+      
+        <!-- container -->
+        <div class="upper_section box">
+          <!-- left inputs -->
+          <table class="table">
+          <form action="/api" class="box main_form">    
+            <td>  <strong><label for="resto">Restaurant Name</label> </strong></td>
+           <td>    <input type="text" name="resto" id="resto"> </td>
+            <td>  <button type="submit" style="background-color:FFCE33" ;> Change List </button> </td>
+          <td>     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAaQa5JYyAx15G3RnUv9mgPauCfds24ZsF4A&usqp=CAU" alt="finder"
+               width="85px" 
+               height="80px"   
+                    /></td>
+     
+       
+            <!-- This looks empty but is a load animation! -->
+            <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+          </form>
+             </table>
+
+</div>
+        
+        <div> 
+        
+        </div>
+        
+               
+    <div class="container">
+        <div class="lower_section box">
+          <style>
+            form {display:flex;
+              flex-wrap:wrap}
+          </style>
+          <p>
+            Welcome<br/> to the World of Restaurants!
+          </p>
+          <hr width="100%" color="red" align="centre"/>
+          <!-- right side -->
+          <!-- images box -->
+          <h2>Local Restaurant Map</h2>
+          <div id="map" class="box"></div>
+          <div class="box" id="restaurant_list">
+            <!-- description box -->
+            A list of restaurants from an API
+          </div>
+        </div>
+      </div>
+
+      <!-- This is about where a footer goes -->
+   <p>   </p>
+    
+    <a draggable="true" href="www.google.com">
+     <img src="https://blogimg.goo.ne.jp/user_image/05/61/b2465ed4c0b9b9a6d9d54dcdc3cba072.gif"
+         width="40%"  style="float:right; margin=0;">
+    </a>
+    <script src="./script.js"></script>
+  </body>
+</html>
