@@ -1,8 +1,7 @@
 
-<h1 align="center">🎯 Pathfinding Visualizer</h1>
+<h1 align="center">Path-finding Visualizer</h1>
 
-### https://yashodeepchikte.github.io/Path-finder/
-A tool for Visualizing Various path Finding algorithms Built using plane Javascript
+A tool for Visualizing Various path Finding algorithms Built
 
 # Algorithms used
 <ul>
@@ -25,13 +24,6 @@ A tool for Visualizing Various path Finding algorithms Built using plane Javascr
 
 
 ---
-## 🎈 Pathfinding Visualizer ([Click to try 🚀](https://yashodeepchikte.github.io/Path-finder/))
-
-> Built VanillaJS **_pathfinding visualizer_** using bunch of different shortest-path algorithms (Dijkstra, A*, DFS, BFS) and Generate the grid using maze-generation algorithm (recursive backtracking) and the ability of controlling the grid structure and the distribution of the blocks along with the speed of the visualization (delay papameter) and the size of the grid
-
-
-## ⚙ How it Works
-
 1. Users can drag around the start and end node to set them in any spot.
 2. Users can then choose a speed of the visualization (delay)(By default delay = 10ms between easch visualisation step). 
 3. User can generate a maze by drawing on the grid or by using maze generation Algorithms like recursive backtracking(prims algorithm) and DFS 
